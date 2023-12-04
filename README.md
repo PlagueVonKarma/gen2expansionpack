@@ -11,6 +11,7 @@ As the open source nature of this project implies, people are free to reuse what
 
 * [Plague von Karma / Llinos Evans](https://www.youtube.com/channel/UClX86_ilOzCCUBryPCFGiqA) - Director & Programmer* * [Rezzo] - Programmer
 * Zeta_Null - Spriter
+* [Farore.gba] (https://twitter.com/KmiE_821/status/1715434081234698367) - Original Calflac design interpretation
 
 Legacy Credits
 ====
