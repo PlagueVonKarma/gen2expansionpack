@@ -28,5 +28,3 @@ Albatross sprites: Articuno-G, Blissey, Dugtrio-A, Electivire, Electrode-H, Exeg
 Martha’s Against Humanity sprites: Bellignan (with help from PvK), Mimmeo, Sylveon (with help from Albatross)
 
 Albatross’ sprites refined by either Martha’s Against Humanity or PvK: Annihilape, Arcanine-H, Bellossom, Carapthor, Kingdra, Magmortar, Magnezone, Ministare, Porygon2, Scream Tail, Squeamata, Tauros-P, Wugtrio
-
-Official sprites: Crobat, Disturban, Espeon (edited by Martha’s Against Humanity), Slowking, Steelix, Tricules (edited by Martha’s Against Humanity), Umbreon (edited by Martha’s Against Humanity)
