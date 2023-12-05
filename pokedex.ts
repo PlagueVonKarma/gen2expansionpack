@@ -5,9 +5,20 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		otherFormes: ["Pichu-Spiky-eared"],
 		formeOrder: ["Pichu", "Pichu-Spiky-eared"],
 	},
+	pichuspikyeared: {
+		inherit: true,
+		gen: 2
+	},
+	raichu: {
+		inherit: true,
+		otherFormes: ["Raichu-Alola"]
+	},
 	raichualola: {
 		inherit: true,
 		gen: 2
+	},
+	eevee: {
+		inherit: true,
 	},
 	leafeon: {
 		inherit: true,
@@ -21,13 +32,25 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		gen: 2
 	},
+	rattata: {
+		inherit: true,
+		otherFormes: ["Rattata-Alola"]
+	},
 	rattataalola: {
 		inherit: true,
 		gen: 2
 	},
+	raticate: {
+		inherit: true,
+		otherFormes: ["Raticate-Alola"]
+	},
 	raticatealola: {
 		inherit: true,
 		gen: 2
+	},
+	meowth: {
+		inherit: true,
+		otherFormes: ["Meowth-Alola", "Meowth-Galar"]
 	},
 	meowthalola: {
 		inherit: true,
@@ -37,6 +60,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		gen: 2
 	},
+	persian: {
+		inherit: true,
+		otherFormes: ["Persian-Alola"]
+	},
 	persianalola: {
 		inherit: true,
 		gen: 2
@@ -45,29 +72,57 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		gen: 2
 	},
+	geodude: {
+		inherit: true,
+		otherFormes: ["Geodude-Alola"]
+	},
 	geodudealola: {
 		inherit: true,
 		gen: 2
+	},
+	graveler: {
+		inherit: true,
+		otherFormes: ["Graveler-Alola"]
 	},
 	graveleralola: {
 		inherit: true,
 		gen: 2
 	},
+	golem: {
+		inherit: true,
+		otherFormes: ["Golem-Alola"]
+	},
 	golemalola: {
 		inherit: true,
 		gen: 2
+	},
+	sandshrew: {
+		inherit: true,
+		otherFormes: ["Sandshrew-Alola"]
 	},
 	sandshrewalola: {
 		inherit: true,
 		gen: 2
 	},
+	sandslash: {
+		inherit: true,
+		otherFormes: ["Sandslash-Alola"]
+	},
 	sandslashalola: {
 		inherit: true,
 		gen: 2
 	},
+	vulpix: {
+		inherit: true,
+		otherFormes: ["Vulpix-Alola"]
+	},
 	vulpixalola: {
 		inherit: true,
 		gen: 2
+	},
+	ninetales: {
+		inherit: true,
+		otherFormes: ["Ninetales-Alola"]
 	},
 	ninetalesalola: {
 		inherit: true,
@@ -81,13 +136,25 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		gen: 2
 	},
+	growlithe: {
+		inherit: true,
+		otherFormes: ["Growlithe-Hisui"]
+	},
 	growlithehisui: {
 		inherit: true,
 		gen: 2
 	},
+	arcanine: {
+		inherit: true,
+		otherFormes: ["Arcanine-Hisui"]
+	},
 	arcaninehisui: {
 		inherit: true,
 		gen: 2
+	},
+	farfetchd: {
+		inherit: true,
+		otherFormes: ["Farfetch\u2019d-Galar"]
 	},
 	farfetchdgalar: {
 		inherit: true,
@@ -97,9 +164,17 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		gen: 2
 	},
+	diglett: {
+		inherit: true,
+		otherFormes: ["Diglett-Alola"]
+	},
 	diglettalola: {
 		inherit: true,
 		gen: 2
+	},
+	dugtrio: {
+		inherit: true,
+		otherFormes: ["Dugtrio-Alola"]
 	},
 	dugtrioalola: {
 		inherit: true,
@@ -113,9 +188,17 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		gen: 2
 	},
+	voltorb: {
+		inherit: true,
+		otherFormes: ["Voltorb-Hisui"]
+	},
 	voltorbhisui: {
 		inherit: true,
 		gen: 2
+	},
+	electrode: {
+		inherit: true,
+		otherFormes: ["Electrode-Hisui"]
 	},
 	electrodehisui: {
 		inherit: true,
@@ -133,37 +216,73 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		gen: 2
 	},
+	slowpoke: {
+		inherit: true,
+		otherFormes: ["Slowpoke-Galar"]
+	},
 	slowpokegalar: {
 		inherit: true,
 		gen: 2
+	},
+	slowbro: {
+		inherit: true,
+		otherFormes: ["Slowbro-Galar"]
 	},
 	slowbrogalar: {
 		inherit: true,
 		gen: 2
 	},
+	slowking: {
+		inherit: true,
+		otherFormes: ["Slowking-Galar"]
+	},
 	slowkinggalar: {
 		inherit: true,
 		gen: 2
+	},
+	ponyta: {
+		inherit: true,
+		otherFormes: ["Ponyta-Galar"]
 	},
 	ponytagalar: {
 		inherit: true,
 		gen: 2
 	},
+	rapidash: {
+		inherit: true,
+		otherFormes: ["Rapidash-Galar"]
+	},
 	rapidashgalar: {
 		inherit: true,
 		gen: 2
+	},
+	marowak: {
+		inherit: true,
+		otherFormes: ["Marowak-Alola"]
 	},
 	marowakalola: {
 		inherit: true,
 		gen: 2
 	},
+	grimer: {
+		inherit: true,
+		otherFormes: ["Grimer-Alola"]
+	},
 	grimeralola: {
 		inherit: true,
 		gen: 2
 	},
+	muk: {
+		inherit: true,
+		otherFormes: ["Muk-Alola"]
+	},
 	mukalola: {
 		inherit: true,
 		gen: 2
+	},
+	weezing: {
+		inherit: true,
+		otherFormes: ["Weezing-Galar"]
 	},
 	weezinggalar: {
 		inherit: true,
@@ -172,6 +291,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	tangrowth: {
 		inherit: true,
 		gen: 2
+	},
+	exeggutor: {
+		inherit: true,
+		otherFormes: ["Exeggutor-Alola"]
 	},
 	exeggutoralola: {
 		inherit: true,
@@ -184,6 +307,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	kleavor: {
 		inherit: true,
 		gen: 2
+	},
+	tauros: {
+		inherit: true,
+		otherFormes: ["Tauros-Paldea-Combat", "Tauros-Paldea-Blaze", "Tauros-Paldea-Aqua"]
 	},
 	taurospaldeacombat: {
 		inherit: true,
@@ -204,6 +331,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	mimejr: {
 		inherit: true,
 		gen: 2
+	},
+	mrmime: {
+		inherit: true,
+		otherFormes: ["Mr. Mime-Galar"]
 	},
 	mrmimegalar: {
 		inherit: true,
@@ -237,13 +368,25 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		gen: 2
 	},
+	articuno: {
+		inherit: true,
+		otherFormes: ["Articuno-Galar"]
+	},
 	articunogalar: {
 		inherit: true,
 		gen: 2
 	},
+	zapdos: {
+		inherit: true,
+		otherFormes: ["Zapdos-Galar"]
+	},
 	zapdosgalar: {
 		inherit: true,
 		gen: 2
+	},
+	moltres: {
+		inherit: true,
+		otherFormes: ["Moltres-Galar"]
 	},
 	moltresgalar: {
 		inherit: true,
@@ -256,6 +399,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	melmetal: {
 		inherit: true,
 		gen: 2
+	},
+	typhlosion: {
+		inherit: true,
+		otherFormes: ["Typhlosion-Hisui"]
 	},
 	typhlosionhisui: {
 		inherit: true,
@@ -289,6 +436,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		gen: 2
 	},
+	woooper: {
+		inherit: true,
+		otherFormes: ["Wooper-Paldea"]
+	},
 	wooperpaldea: {
 		inherit: true,
 		gen: 2
@@ -313,6 +464,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		gen: 2
 	},
+	corsola: {
+		inherit: true,
+		otherFormes: ["Corsola-Galar"]
+	},
 	corsolagalar: {
 		inherit: true,
 		gen: 2
@@ -333,6 +488,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		gen: 2
 	},
+	qwilfish: {
+		inherit: true,
+		otherFormes: ["Qwilfish-Hisui"]
+	},
 	qwilfishhisui: {
 		inherit: true,
 		gen: 2
@@ -344,6 +503,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	mamoswine: {
 		inherit: true,
 		gen: 2
+	},
+	sneasel: {
+		inherit: true,
+		otherFormes: ["Sneasel-Hisui"]
 	},
 	sneaselhisui: {
 		inherit: true,
