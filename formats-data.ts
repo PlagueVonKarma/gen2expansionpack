@@ -754,7 +754,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	togetic: {
 		tier: "NFE",
 	},
-	
+
 	// JEP ADDITIONS
 	totartle: {
 		tier: "OU",
@@ -789,7 +789,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	meowthalola: {
 		tier: "LC",
 	},
-	mewothgalar: {
+	meowthgalar: {
 		tier: "LC",
 	},
 	persianalola: {
