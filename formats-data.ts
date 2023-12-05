@@ -1203,7 +1203,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	overqwil: {
 		tier: "OU",
 	},
-	kazappelin: {
+	kazeppelin: {
 		tier: "OU",
 	},
 	qwilfather: {
