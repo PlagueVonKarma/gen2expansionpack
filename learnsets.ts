@@ -10203,7 +10203,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	"kingdra": {
 		"encounters": [],
 		"eventData": [],
-		"moveLearnset": {
+		"learnset": {
 			"agility": [
 				"1L41",
 				"2L1"
@@ -16975,7 +16975,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	"persianalola": {
 		"encounters": [],
 		"eventData": [],
-		"moveLearnset": {
+		"learnset": {
 			"amnesia": [
 				"2E"
 			],
