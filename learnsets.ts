@@ -677,12 +677,14 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		"eventData": [],
 		"learnset": {
 			"agility": [
+				"2L1",
 				"1L20"
 			],
 			"bide": [
 				"1M"
 			],
 			"confusion": [
+				"2L1",
 				"1L5"
 			],
 			"curse": [
@@ -708,10 +710,12 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M",
 				"2M"
 			],
+			futuresight: ["2L1"],
 			"frustration": [
 				"2M"
 			],
 			"gust": [
+				"2L1",
 				"1L1"
 			],
 			"hiddenpower": [
@@ -722,9 +726,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"hypnosis": [
+				"2L1",
 				"1L15"
 			],
 			"lightscreen": [
+				"2L1",
 				"1L30"
 			],
 			"mimic": [
@@ -740,6 +746,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1L25"
 			],
 			"psychic": [
+				"2L1",
 				"1M",
 				"2M"
 			],
@@ -756,6 +763,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"recover": [
+				"2L1",
 				"1L40"
 			],
 			"reflect": [
@@ -1115,8 +1123,13 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	"belledam": {
 		"learnset": {
 			"attract": [
+				"2L1",
 				"2M"
 			],
+			"charm": [
+				"2E"
+			],
+			coinhurl: ["2L1"],
 			"curse": [
 				"2M"
 			],
@@ -1141,24 +1154,30 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"endure": [
 				"2M"
 			],
+			feintattack: ["2L1"],
 			"flash": [
 				"2M"
 			],
 			"frustration": [
 				"2M"
 			],
+			furyswipes: ["2L1"],
+			growl: ["2L1"],
 			"headbutt": [
 				"2M"
 			],
+			healbell: ["2L1"],
 			"hiddenpower": [
 				"2M"
 			],
-			"hyperbeam": [
-				"2M"
+			hyperbeam: ["2M", "1M"],
+			"hypnosis": [
+				"2E"
 			],
 			"irontail": [
 				"2M"
 			],
+			lovelykiss: ["2L1"],
 			"mudslap": [
 				"2M"
 			],
@@ -1173,6 +1192,9 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			],
 			"psychup": [
 				"2M"
+			],
+			"pursuit": [
+				"2E"
 			],
 			"raindance": [
 				"2M"
@@ -1195,9 +1217,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"swagger": [
 				"2M"
 			],
+			sweetkiss: ["2L1"],
 			"swift": [
 				"2M"
 			],
+			tailwhip: ["2L1"],
 			"thief": [
 				"2M"
 			],
@@ -1622,7 +1646,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"endure": [
 				"2M"
 			],
-			"faintattack": [
+			"feintattack": [
 				"2E"
 			],
 			"frustration": [
@@ -2614,6 +2638,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"aurorabeam": [
+				"2L1",
 				"1L1"
 			],
 			"barrier": [
@@ -2623,6 +2648,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"blizzard": [
+				"2L58",
 				"1M",
 				"2M"
 			],
@@ -2632,6 +2658,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"counter": [
 				"1M"
 			],
+			crosschop: ["2E"],
 			"curse": [
 				"2M"
 			],
@@ -2639,6 +2666,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"disable": [
+				"2L1",
 				"1L39"
 			],
 			"doubleedge": [
@@ -2654,10 +2682,12 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"endure": [
 				"2M"
 			],
+			feintattack: ["2L27"],
 			"frustration": [
 				"2M"
 			],
 			"haze": [
+				"2L1",
 				"1L48"
 			],
 			"headbutt": [
@@ -2672,11 +2702,13 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"icebeam": [
+				"2L51",
 				"1L55",
 				"1M",
 				"2M"
 			],
 			"icepunch": [
+				"2L1",
 				"1L42",
 				"2M"
 			],
@@ -2687,6 +2719,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2E"
 			],
 			"leer": [
+				"2L1",
 				"1L1"
 			],
 			"megakick": [
@@ -2702,6 +2735,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"mist": [
+				"2L1",
 				"1L35"
 			],
 			"mudslap": [
@@ -2717,6 +2751,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"psywave": [
 				"1M"
 			],
+			pursuit: ["2L39"],
 			"rage": [
 				"1M"
 			],
@@ -2800,6 +2835,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"barrage": [
+				"2L1", 
 				"1L1"
 			],
 			"bide": [
@@ -2830,6 +2866,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"explosion": [
+				"2L50",
 				"1L50",
 				"1M"
 			],
@@ -2843,6 +2880,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"furyattack": [
+				"2L1", 
 				"1L31"
 			],
 			"furycutter": [
@@ -2852,6 +2890,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"growth": [
+				"2L1", 
 				"1L21"
 			],
 			"headbutt": [
@@ -2862,6 +2901,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"hornattack": [
+				"2L1", 
 				"1L13"
 			],
 			"horndrill": [
@@ -2890,6 +2930,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"pinmissile": [
+				"2L1", 
 				"1L25"
 			],
 			"protect": [
@@ -2898,6 +2939,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"rage": [
 				"1M"
 			],
+			rapidspin: ["2E"],
 			"rest": [
 				"1M",
 				"2M"
@@ -2906,6 +2948,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"sandattack": [
+				"2L1", 
 				"1L1"
 			],
 			"selfdestruct": [
@@ -2922,8 +2965,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"spikecannon": [
+				"2L1", 
 				"1L45"
 			],
+			spikes: ["2L27"],
 			"substitute": [
 				"1M"
 			],
@@ -2957,6 +3002,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"vinewhip": [
+				"2L5", 
 				"1L7"
 			],
 			"whirlwind": [
@@ -3731,7 +3777,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"endure": [
 				"2M"
 			],
-			"faintattack": [
+			"feintattack": [
 				"2L1"
 			],
 			"frustration": [
@@ -4605,6 +4651,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"counter": [
 				"1M"
 			],
+			crunch: ["2E"],
 			"curse": [
 				"2M"
 			],
@@ -4656,6 +4703,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"growl": [
+				"2L1",
 				"1L1"
 			],
 			"headbutt": [
@@ -4665,6 +4713,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"hiddenpower": [
 				"2M"
 			],
+			hyperbeam: ["2L57"],
 			"icebeam": [
 				"2M"
 			],
@@ -4704,17 +4753,21 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"roar": [
+				"2L1",
 				"1L40",
 				"2M"
 			],
 			"rockslide": [
+				"2L1",
 				"1L43",
 				"1M"
 			],
 			"rocksmash": [
 				"2M"
 			],
+			rockslash: ["2L51"],
 			"rockthrow": [
+				"2L1",
 				"1L38"
 			],
 			"rollout": [
@@ -4724,6 +4777,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"screech": [
+				"2L1",
 				"1L35"
 			],
 			"seismictoss": [
@@ -4742,16 +4796,19 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"substitute": [
+				"2L1",
 				"1L1",
 				"1M"
 			],
 			"sunnyday": [
 				"2M"
 			],
+			stomp: ["2E"],
 			"swagger": [
 				"2M"
 			],
 			"tackle": [
+				"2L1",
 				"1L1"
 			],
 			"takedown": [
@@ -4932,6 +4989,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"bubblebeam": [
 				"1M"
 			],
+			crunch: ["2L41"],
 			"curse": [
 				"2M"
 			],
@@ -4983,7 +5041,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"poisongas": [
-				"1L50"
+				"1L50", "2L1"
 			],
 			"protect": [
 				"2M"
@@ -5016,6 +5074,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"snore": [
 				"2M"
 			],
+			spikes: ["2L33"],
 			"strength": [
 				"1M",
 				"2M"
@@ -6240,6 +6299,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"nightmare": [
 				"2M"
 			],
+			outrage: ["2L55"],
 			"protect": [
 				"2M"
 			],
@@ -7415,6 +7475,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"growl": [
+				"2L1",
 				"1L1"
 			],
 			"headbutt": [
@@ -7425,6 +7486,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"hyperbeam": [
+				"2L1",
 				"1M",
 				"2M"
 			],
@@ -7454,6 +7516,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"mudslap": [
 				"2M"
 			],
+			outrage: ["2L40"],
 			"protect": [
 				"2M"
 			],
@@ -7468,17 +7531,21 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"roar": [
+				"2L1",
 				"1L40",
 				"2M"
 			],
 			"rockslide": [
+				"2L1",
 				"1L47",
 				"1M"
 			],
+			rockslash: ["2L61"],
 			"rocksmash": [
 				"2M"
 			],
 			"rockthrow": [
+				"2L1",
 				"1L38"
 			],
 			"rollout": [
@@ -7488,6 +7555,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"screech": [
+				"2L1",
 				"1L35"
 			],
 			"seismictoss": [
@@ -7510,6 +7578,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"substitute": [
+				"2L1",
 				"1L1",
 				"1M"
 			],
@@ -7524,6 +7593,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"tackle": [
+				"2L1",
 				"1L1"
 			],
 			"takedown": [
@@ -9163,7 +9233,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"charm": [
-				"1L8"
+				"2L1", "1L8"
 			],
 			"counter": [
 				"1M"
@@ -9205,6 +9275,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"frustration": [
 				"2M"
 			],
+			healbell: ["2L9", "2E"],
 			"headbutt": [
 				"2M"
 			],
@@ -9228,7 +9299,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"mimic": [
-				"1M"
+				"2L12", "1M"
 			],
 			"mudslap": [
 				"2M"
@@ -9574,7 +9645,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"endure": [
 				"2M"
 			],
-			"faintattack": [
+			"feintattack": [
 				"2E"
 			],
 			"fireblast": [
@@ -9740,6 +9811,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"bite": [
+				"2L1",
 				"1L20"
 			],
 			"blizzard": [
@@ -9748,9 +9820,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"bodyslam": [
 				"1M"
 			],
+			bubble: ["2E"],
 			"bubblebeam": [
 				"1M"
 			],
+			crunch: ["2L1"],
 			"curse": [
 				"2M"
 			],
@@ -9772,9 +9846,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"dragonbreath": [
+				"2L1",
 				"2M"
 			],
 			"dragonrage": [
+				"2L1",
 				"1L40",
 				"1M"
 			],
@@ -9788,6 +9864,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"glare": [
+				"2L1",
 				"1L30"
 			],
 			"headbutt": [
@@ -9797,10 +9874,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"hiddenpower": [
 				"2M"
 			],
-			"hyperbeam": [
-				"1M",
-				"2M"
-			],
+			hyperbeam: ["2M", "1M"],
 			"icebeam": [
 				"2M"
 			],
@@ -9811,6 +9885,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"leer": [
+				"2L1",
 				"1L10"
 			],
 			"mimic": [
@@ -9822,6 +9897,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"mudslap": [
 				"2M"
 			],
+			outrage: ["2L1"],
 			"protect": [
 				"2M"
 			],
@@ -9841,19 +9917,18 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"return": [
 				"2M"
 			],
-			"roar": [
-				"2M"
-			],
 			"rockslide": [
 				"1M"
 			],
 			"scratch": [
+				"2L1",
 				"1L1"
 			],
 			"skullbash": [
 				"1M"
 			],
 			"slash": [
+				"2L1",
 				"1L50"
 			],
 			"sleeptalk": [
@@ -9861,12 +9936,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			],
 			"snore": [
 				"2M"
-			],
-			"solarbeam": [
-				"1M"
-			],
-			"strength": [
-				"1M"
 			],
 			"substitute": [
 				"1M"
@@ -9883,6 +9952,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"tailwhip": [
+				"2L1",
 				"1L1"
 			],
 			"takedown": [
@@ -10125,7 +10195,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"endure": [
 				"2M"
 			],
-			"faintattack": [
+			"feintattack": [
 				"2L1"
 			],
 			"flash": [
@@ -13427,6 +13497,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		"eventData": [],
 		"learnset": {
 			"acidarmor": [
+				"2L1",
 				"1L36"
 			],
 			"bide": [
@@ -13446,6 +13517,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"dynamicpunch": [
+				"2L1",
 				"2M"
 			],
 			"earthquake": [
@@ -13462,9 +13534,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"harden": [
+				"2L1",
 				"1L1"
 			],
 			"headbutt": [
+				"2L1",
 				"2M",
 				"2M"
 			],
@@ -13472,6 +13546,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"hyperbeam": [
+				"2L90",
 				"1L90",
 				"1M",
 				"2M"
@@ -13485,6 +13560,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1L72"
 			],
 			"irontail": [
+				"2L1",
 				"2M"
 			],
 			"magnetbomb": [
@@ -13494,6 +13570,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"megapunch": [
+				"2L1",
 				"1L51",
 				"1M"
 			],
@@ -13504,6 +13581,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"protect": [
+				"2L1",
 				"2M"
 			],
 			"psychup": [
@@ -13552,6 +13630,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"tailwhip": [
+				"2L1",
 				"1L1",
 				"1L9"
 			],
@@ -13564,14 +13643,17 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"thunderpunch": [
+				"2L1",
 				"1L20",
 				"2M"
 			],
 			"thundershock": [
+				"2L1",
 				"1L1",
 				"1L27"
 			],
 			"thunderwave": [
+				"2L1",
 				"1L1",
 				"1L18",
 				"1M"
@@ -13596,6 +13678,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		"eventData": [],
 		"learnset": {
 			"acidarmor": [
+				"2L1",
 				"1L32"
 			],
 			"bide": [
@@ -13615,9 +13698,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"harden": [
+				"2L1",
 				"1L1"
 			],
 			"headbutt": [
+				"2L1",
 				"1L16",
 				"2E",
 				"2M"
@@ -13629,6 +13714,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1L40"
 			],
 			"irontail": [
+				"2L1",
 				"2M"
 			],
 			"mimic": [
@@ -13660,15 +13746,18 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"tailwhip": [
+				"2L1",
 				"1L8"
 			],
 			"thunderbolt": [
 				"2M"
 			],
 			"thundershock": [
+				"2L1",
 				"1L1"
 			],
 			"thunderwave": [
+				"2L1",
 				"1L24",
 				"1M"
 			],
@@ -14044,8 +14133,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"barrier": [
+				"2L1", 
 				"1L1"
 			],
+			batonpass: ["2L41"],
 			"bide": [
 				"1M"
 			],
@@ -14053,6 +14144,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"confusion": [
+				"2L1", 
 				"1L1",
 				"1L8"
 			],
@@ -14066,6 +14158,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"doubleslap": [
+				"2L1", 
 				"1L18"
 			],
 			"doubleteam": [
@@ -14078,6 +14171,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"dynamicpunch": [
 				"2M"
 			],
+			encore: ["2L31"],
 			"endure": [
 				"2M"
 			],
@@ -14091,19 +14185,23 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"frustration": [
 				"2M"
 			],
+			futuresight: ["2E"],
 			"headbutt": [
 				"2M"
 			],
 			"hiddenpower": [
 				"2M"
 			],
+			hypnosis: ["2E"],
 			"icepunch": [
 				"2M"
 			],
 			"lightscreen": [
+				"2L1", 
 				"1L13"
 			],
 			"meditate": [
+				"2L1", 
 				"1L24"
 			],
 			"megakick": [
@@ -14116,8 +14214,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"mimic": [
+				"2L1",
+				"2E",
 				"1M"
 			],
+			mindreader: ["2S0"],
 			"mudslap": [
 				"2M"
 			],
@@ -14127,6 +14228,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"protect": [
 				"2M"
 			],
+			psybeam: ["2L36"],
 			"psychic": [
 				"1M",
 				"2M"
@@ -14141,6 +14243,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"reflect": [
+				"2L1", 
 				"1M"
 			],
 			"rest": [
@@ -14150,6 +14253,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"return": [
 				"2M"
 			],
+			safeguard: ["2L46"],
 			"seismictoss": [
 				"1M"
 			],
@@ -14173,6 +14277,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"substitute": [
+				"2L1", 
 				"1L35"
 			],
 			"sunnyday": [
@@ -14224,15 +14329,19 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		"eventData": [],
 		"learnset": {
 			"lightscreen": [
+				"2L40",
 				"1L40"
 			],
 			"mist": [
+				"2L30",
 				"1L30"
 			],
 			"reflect": [
+				"2L50",
 				"1L50"
 			],
 			"transform": [
+				"2L1",
 				"1L1"
 			]
 		}
@@ -14248,6 +14357,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"bite": [
+				"2L1",
 				"1L20"
 			],
 			"blizzard": [
@@ -14256,9 +14366,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"bodyslam": [
 				"1M"
 			],
+			bubble: ["2E"],
 			"bubblebeam": [
 				"1M"
 			],
+			crunch: ["2L1"],
 			"curse": [
 				"2M"
 			],
@@ -14280,9 +14392,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"dragonbreath": [
+				"2L1",
 				"2M"
 			],
 			"dragonrage": [
+				"2L1",
 				"1L40",
 				"1M"
 			],
@@ -14296,6 +14410,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"glare": [
+				"2L1",
 				"1L30"
 			],
 			"headbutt": [
@@ -14315,6 +14430,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"leer": [
+				"2L1",
 				"1L10"
 			],
 			"mimic": [
@@ -14326,6 +14442,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"mudslap": [
 				"2M"
 			],
+			outrage: ["2L1"],
 			"protect": [
 				"2M"
 			],
@@ -14349,12 +14466,14 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"scratch": [
+				"2L1",
 				"1L1"
 			],
 			"skullbash": [
 				"1M"
 			],
 			"slash": [
+				"2L1",
 				"1L50"
 			],
 			"sleeptalk": [
@@ -14362,9 +14481,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			],
 			"snore": [
 				"2M"
-			],
-			"solarbeam": [
-				"1M"
 			],
 			"substitute": [
 				"1M"
@@ -14381,6 +14497,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"tailwhip": [
+				"2L1",
 				"1L1"
 			],
 			"takedown": [
@@ -14526,11 +14643,13 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	"moibelle": {
 		"learnset": {
 			"attract": [
+				"2L1",
 				"2M"
 			],
 			"charm": [
 				"2E"
 			],
+			coinhurl: ["2L1"],
 			"curse": [
 				"2M"
 			],
@@ -14555,15 +14674,19 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"endure": [
 				"2M"
 			],
+			feintattack: ["2L1"],
 			"flash": [
 				"2M"
 			],
 			"frustration": [
 				"2M"
 			],
+			furyswipes: ["2L1"],
+			growl: ["2L1"],
 			"headbutt": [
 				"2M"
 			],
+			healbell: ["2L1"],
 			"hiddenpower": [
 				"2M"
 			],
@@ -14573,6 +14696,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"irontail": [
 				"2M"
 			],
+			lovelykiss: ["2L1"],
 			"mudslap": [
 				"2M"
 			],
@@ -14612,9 +14736,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"swagger": [
 				"2M"
 			],
+			sweetkiss: ["2L1"],
 			"swift": [
 				"2M"
 			],
+			tailwhip: ["2L1"],
 			"thief": [
 				"2M"
 			],
@@ -14643,8 +14769,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		"eventData": [],
 		"learnset": {
 			"agility": [
+				"2L1",
 				"1L20"
 			],
+			beatup: ["2L13"],
 			"bide": [
 				"1M"
 			],
@@ -14665,6 +14793,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"endure": [
+				"2L1",
 				"2M"
 			],
 			"faketears": [
@@ -14674,6 +14803,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1L60"
 			],
 			"feintattack": [
+				"2L1",
 				"1L40"
 			],
 			"fly": [
@@ -14704,6 +14834,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"nastyplot": [
 				"1L50"
 			],
+			pursuit: ["2L1"],
 			"protect": [
 				"2M"
 			],
@@ -14727,10 +14858,12 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"rocksmash": [
 				"2M"
 			],
+			safeguard: ["2L61"],
 			"sandstorm": [
 				"2M"
 			],
 			"skyattack": [
+				"2L1",
 				"1L70",
 				"1M"
 			],
@@ -14770,6 +14903,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"wingattack": [
+				"2L1",
 				"1L15"
 			]
 		}
@@ -14788,11 +14922,14 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"aurorabeam": [
+				"2L31",
 				"1L31"
 			],
+			barrier: ["2L1"],
 			"bide": [
 				"1M"
 			],
+			batonpass: ["2E"],
 			"blizzard": [
 				"1M",
 				"2M"
@@ -14801,6 +14938,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"confusion": [
+				"2L1",
 				"1L1"
 			],
 			"counter": [
@@ -14812,6 +14950,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"doubleedge": [
 				"1M"
 			],
+			doublekick: ["2L1"],
 			"doubleteam": [
 				"1M",
 				"2M"
@@ -14822,9 +14961,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"dynamicpunch": [
 				"2M"
 			],
+			encore: ["2E"],
 			"endure": [
 				"2M"
 			],
+			feintattack: ["2L1"],
 			"flash": [
 				"1M",
 				"2M"
@@ -14832,6 +14973,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"frustration": [
 				"2M"
 			],
+			futuresight: ["2E"],
 			"headbutt": [
 				"2M"
 			],
@@ -14839,8 +14981,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"hyperbeam": [
+				"2M",
 				"1M"
 			],
+			hypnosis: ["2E"],
 			"icebeam": [
 				"1L39",
 				"1M",
@@ -14850,11 +14994,14 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"icywind": [
+				"2L1",
 				"2M"
 			],
 			"lightscreen": [
+				"2L1",
 				"1L23"
 			],
+			meditate: ["2L1"],
 			"megakick": [
 				"1M"
 			],
@@ -14865,8 +15012,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"mimic": [
+				"2E",
 				"1M"
 			],
+			mirrorcoat: ["2L1"],
 			"mudslap": [
 				"2M"
 			],
@@ -14877,6 +15026,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"psybeam": [
+				"2L36",
 				"1L28"
 			],
 			"psychic": [
@@ -14896,7 +15046,9 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"raindance": [
 				"2M"
 			],
+			rapidspin: ["2L1"],
 			"reflect": [
+				"2L1",
 				"1L1",
 				"1M"
 			],
@@ -14907,6 +15059,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"return": [
 				"2M"
 			],
+			safeguard: ["2E"],
 			"seismictoss": [
 				"1M"
 			],
@@ -14984,11 +15137,14 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"aurorabeam": [
+				"2L31",
 				"1L31"
 			],
+			barrier: ["2L1"],
 			"bide": [
 				"1M"
 			],
+			batonpass: ["2E"],
 			"blizzard": [
 				"1M",
 				"2M"
@@ -14997,6 +15153,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"confusion": [
+				"2L1",
 				"1L1"
 			],
 			"counter": [
@@ -15008,26 +15165,22 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"doubleedge": [
 				"1M"
 			],
+			doublekick: ["2L1"],
 			"doubleteam": [
 				"1M",
 				"2M"
 			],
 			"dreameater": [
-				"2M",
 				"2M"
 			],
 			"dynamicpunch": [
 				"2M"
 			],
+			encore: ["2E"],
 			"endure": [
 				"2M"
 			],
-			"feintattack": [
-				"1L50"
-			],
-			"firepunch": [
-				"2M"
-			],
+			feintattack: ["2L1"],
 			"flash": [
 				"1M",
 				"2M"
@@ -15035,35 +15188,35 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"frustration": [
 				"2M"
 			],
+			futuresight: ["2E"],
 			"headbutt": [
-				"2M",
 				"2M"
 			],
 			"hiddenpower": [
 				"2M"
 			],
 			"hyperbeam": [
-				"1M",
-				"2M"
+				"2M",
+				"1M"
 			],
-			"hypnosis": [
-				"2E"
-			],
+			hypnosis: ["2E"],
 			"icebeam": [
 				"1L39",
 				"1M",
 				"2M"
 			],
 			"icepunch": [
-				"2M",
 				"2M"
 			],
 			"icywind": [
+				"2L1",
 				"2M"
 			],
 			"lightscreen": [
+				"2L1",
 				"1L23"
 			],
+			meditate: ["2L1"],
 			"megakick": [
 				"1M"
 			],
@@ -15074,8 +15227,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"mimic": [
+				"2E",
 				"1M"
 			],
+			mirrorcoat: ["2L1"],
 			"mudslap": [
 				"2M"
 			],
@@ -15086,6 +15241,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"psybeam": [
+				"2L36",
 				"1L28"
 			],
 			"psychic": [
@@ -15105,7 +15261,9 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"raindance": [
 				"2M"
 			],
+			rapidspin: ["2L1"],
 			"reflect": [
+				"2L1",
 				"1L1",
 				"1M"
 			],
@@ -15116,6 +15274,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"return": [
 				"2M"
 			],
+			safeguard: ["2E"],
 			"seismictoss": [
 				"1M"
 			],
@@ -15165,7 +15324,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"thunderpunch": [
-				"2M",
 				"2M"
 			],
 			"thunderwave": [
@@ -15371,6 +15529,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"bubblebeam": [
 				"1M"
 			],
+			charm: ["2E"],
 			"counter": [
 				"1M"
 			],
@@ -15378,6 +15537,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"defensecurl": [
+				"2L1",
 				"2M"
 			],
 			"doubleedge": [
@@ -15478,6 +15638,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"rest": [
+				"2L1",
 				"1L1",
 				"1M",
 				"2M"
@@ -15538,6 +15699,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"swagger": [
 				"2M"
 			],
+			sweetkiss: ["2L1"],
+			tackle: ["2L1"],
 			"takedown": [
 				"1M"
 			],
@@ -15985,6 +16148,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"explosion": [
+				"2L1",
 				"1M"
 			],
 			"fireblast": [
@@ -16017,6 +16181,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"hyperbeam": [
+				"2L1",
 				"1M",
 				"2M"
 			],
@@ -16037,6 +16202,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1L50"
 			],
 			"irontail": [
+				"2L1",
 				"2M"
 			],
 			"magnetbomb": [
@@ -16048,6 +16214,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"megapunch": [
 				"1M"
 			],
+			metalclaw: ["2L15"],
 			"metalsound": [
 				"1L1"
 			],
@@ -16093,6 +16260,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"slam": [
+				"2L1",
 				"1L48"
 			],
 			"sleeptalk": [
@@ -16118,6 +16286,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"supersonic": [
+				"2L1",
 				"1L1"
 			],
 			"surf": [
@@ -16130,6 +16299,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"tackle": [
+				"2L1",
 				"1L1"
 			],
 			"takedown": [
@@ -16140,6 +16310,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"thunderbolt": [
+				"2L1",
 				"1M",
 				"2M"
 			],
@@ -16147,7 +16318,9 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M",
 				"2M"
 			],
+			thundershock: ["2L1"],
 			"thunderwave": [
+				"2L1",
 				"1M"
 			],
 			"toxic": [
@@ -17157,6 +17330,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"attract": [
 				"2M"
 			],
+			dazzlinggleam: ["2L71"],
 			"detect": [
 				"2M"
 			],
@@ -17166,6 +17340,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"doubleteam": [
 				"2M"
 			],
+			drainingkiss: ["2L35"],
 			"dreameater": [
 				"2M"
 			],
@@ -18062,6 +18237,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"agility": [
 				"1L35"
 			],
+		
 			"bide": [
 				"1M"
 			],
@@ -18116,6 +18292,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"irontail": [
 				"2M"
 			],
+			metronome: ["2L24"],
 			"mimic": [
 				"1M"
 			],
@@ -20372,6 +20549,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"earthquake": [
+				"2L1",
 				"1M",
 				"2M"
 			],
@@ -20396,6 +20574,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"irontail": [
+				"2L1",
 				"2M"
 			],
 			"magnetbomb": [
@@ -20407,6 +20586,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"mimic": [
 				"1M"
 			],
+			mirrorcat: ["2L70"],
 			"mudslap": [
 				"2M"
 			],
@@ -20436,6 +20616,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"screech": [
+				"2L1",
 				"1L55"
 			],
 			"sleeptalk": [
@@ -20447,13 +20628,16 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"sonicboom": [
 				"1L1"
 			],
+			spark: ["2L21"],
 			"substitute": [
 				"1M"
 			],
 			"sunnyday": [
+				"2L1",
 				"2M"
 			],
 			"supersonic": [
+				"2L1",
 				"1L51"
 			],
 			"swagger": [
@@ -20477,10 +20661,12 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"thunderbolt": [
+				"2L1",
 				"1M",
 				"2M"
 			],
 			"thundershock": [
+				"2L1",
 				"1L1"
 			],
 			"thunderwave": [
@@ -20494,6 +20680,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2L35"
 			],
 			"zapcannon": [
+				"2L1",
 				"2M"
 			]
 		}
@@ -20661,6 +20848,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"bite": [
+				"2L1",
 				"1L1"
 			],
 			"blizzard": [
@@ -20668,6 +20856,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"bodyslam": [
+				"2L1",
 				"1M"
 			],
 			"bubblebeam": [
@@ -20676,10 +20865,12 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"counter": [
 				"1M"
 			],
+			crunch: ["2L56"],
 			"curse": [
 				"2M"
 			],
 			"dazzlinggleam": [
+				"2L1",
 				"1L55"
 			],
 			"defensecurl": [
@@ -20689,6 +20880,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"disable": [
+				"2L1",
 				"1L1"
 			],
 			"disarmingvoice": [
@@ -20702,6 +20894,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"drainingkiss": [
+				"2L1",
 				"1L55"
 			],
 			"dreameater": [
@@ -20770,10 +20963,13 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"nightmare": [
 				"2M"
 			],
+			perishsong: ["2L70"],
+			pound: ["2L1"],
 			"protect": [
 				"2M"
 			],
 			"psychic": [
+				"2L1",
 				"1M",
 				"2M"
 			],
@@ -20793,6 +20989,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"rest": [
+				"2L1",
 				"1M",
 				"2M"
 			],
@@ -20818,6 +21015,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"sing": [
+				"2L1",
 				"1L1"
 			],
 			"skullbash": [
@@ -20843,6 +21041,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"sunnyday": [
+				"2L1",
 				"2M"
 			],
 			"swagger": [
@@ -20910,9 +21109,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M",
 				"2M"
 			],
-			"brutalswing": [
-				"1L42"
-			],
 			"bubblebeam": [
 				"1M"
 			],
@@ -20972,9 +21168,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"icywind": [
 				"2M"
 			],
-			"ironhead": [
-				"1L49"
-			],
 			"irontail": [
 				"2M"
 			],
@@ -21010,7 +21203,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1L19"
 			],
 			"sharpen": [
-				"2S0"
+				"2L37"
 			],
 			"skullbash": [
 				"1M"
@@ -22613,6 +22806,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"bite": [
+				"2L1",
 				"1L20"
 			],
 			"blizzard": [
@@ -22621,9 +22815,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"bodyslam": [
 				"1M"
 			],
+			bubble: ["2E"],
 			"bubblebeam": [
 				"1M"
 			],
+			crunch: ["2L1"],
 			"curse": [
 				"2M"
 			],
@@ -22645,9 +22841,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"dragonbreath": [
+				"2L1",
 				"2M"
 			],
 			"dragonrage": [
+				"2L1",
 				"1L40",
 				"1M"
 			],
@@ -22661,6 +22859,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"glare": [
+				"2L1",
 				"1L30"
 			],
 			"headbutt": [
@@ -22680,6 +22879,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"leer": [
+				"2L1",
 				"1L10"
 			],
 			"mimic": [
@@ -22691,6 +22891,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"mudslap": [
 				"2M"
 			],
+			outrage: ["2L1"],
 			"protect": [
 				"2M"
 			],
@@ -22714,12 +22915,14 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"scratch": [
+				"2L1",
 				"1L1"
 			],
 			"skullbash": [
 				"1M"
 			],
 			"slash": [
+				"2L1",
 				"1L50"
 			],
 			"sleeptalk": [
@@ -22743,6 +22946,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"tailwhip": [
+				"2L1",
 				"1L1"
 			],
 			"takedown": [
@@ -22816,7 +23020,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"endure": [
 				"2M"
 			],
-			"faintattack": [
+			"feintattack": [
 				"2E"
 			],
 			"firepunch": [
@@ -24723,7 +24927,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"hiddenpower": [
 				"2M"
 			],
-			"hijumpkick": [
+			"highjumpkick": [
 				"2E"
 			],
 			"machpunch": [
@@ -24828,7 +25032,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"endure": [
 				"2M"
 			],
-			"faintattack": [
+			"feintattack": [
 				"2L1"
 			],
 			"firepunch": [
@@ -25110,7 +25314,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"endure": [
 				"2M"
 			],
-			"faintattack": [
+			"feintattack": [
 				"2E"
 			],
 			"fireblast": [
@@ -26208,6 +26412,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		"eventData": [],
 		"learnset": {
 			"agility": [
+				"2L1",
 				"1L20"
 			],
 			"bide": [
@@ -26227,6 +26432,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1M"
 			],
 			"doublekick": [
+				"2L1",
 				"1L5"
 			],
 			"doubleteam": [
@@ -26234,6 +26440,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"drillpeck": [
+				"2L1",
 				"1L35"
 			],
 			"endure": [
@@ -26244,6 +26451,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"focusenergy": [
+				"2L1",
 				"1L1"
 			],
 			"frustration": [
@@ -26253,6 +26461,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"highjumpkick": [
+				"2L1",
 				"1L45"
 			],
 			"hyperbeam": [
@@ -26263,6 +26472,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"1L25"
 			],
 			"lightscreen": [
+				"2L1",
 				"1L10"
 			],
 			"lowkick": [
@@ -26278,6 +26488,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"peck": [
+				"2L1",
 				"1L1"
 			],
 			"protect": [
@@ -26304,6 +26515,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 				"2M"
 			],
 			"rollingkick": [
+				"2L1",
 				"1L40"
 			],
 			"sandstorm": [
@@ -26344,6 +26556,395 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			"whirlwind": [
 				"1M"
 			]
+		}
+	},
+	// MANUAL NEW ENTRIES
+	typhlosionhiusi: {
+		learnset: {
+			attract: ["2M"],
+			curse: ["2M"],
+			cut: ["2M"],
+			defensecurl: ["2M"],
+			detect: ["2M"],
+			dig: ["2M"],
+			doubleteam: ["2M"],
+			dynamicpunch: ["2M"],
+			earthquake: ["2M"],
+			ember: ["2L12", "2L1", "2S0"],
+			endure: ["2M"],
+			fireblast: ["2M"],
+			firepunch: ["2M"],
+			flamethrower: ["2T", "2L60"],
+			flamewheel: ["2L31", "2S0"],
+			frustration: ["2M"],
+			furycutter: ["2M"],
+			headbutt: ["2M"],
+			hiddenpower: ["2M"],
+			hyperbeam: ["2M"],
+			irontail: ["2M"],
+			leer: ["2L1"],
+			mudslap: ["2M"],
+			protect: ["2M"],
+			quickattack: ["2L21", "2S0"],
+			rest: ["2M"],
+			return: ["2M"],
+			roar: ["2M"],
+			rocksmash: ["2M"],
+			rollout: ["2M"],
+			shadowball: ["2L60", "2M"],
+			sleeptalk: ["2M"],
+			smokescreen: ["2L6", "2L1", "2S0"],
+			snore: ["2M"],
+			strength: ["2M"],
+			sunnyday: ["2M"],
+			swagger: ["2M"],
+			swift: ["2M", "2L45"],
+			tackle: ["2L1"],
+			thunderpunch: ["2M"],
+			toxic: ["2M"],
+		},
+	},
+	ursalunabloodmoon: {
+		"learnset": {
+			"attract": [
+				"2M"
+			],
+			crunch: ["2L54"],
+			"curse": [
+				"2M"
+			],
+			"cut": [
+				"2M"
+			],
+			"defensecurl": [
+				"2M"
+			],
+			"dig": [
+				"2M"
+			],
+			"doubleteam": [
+				"2M"
+			],
+			"dynamicpunch": [
+				"2M"
+			],
+			"earthquake": [
+				"2M",
+				"2L1"
+			],
+			"endure": [
+				"2M"
+			],
+			"feintattack": [
+				"2L1"
+			],
+			"firepunch": [
+				"2M"
+			],
+			"frustration": [
+				"2M"
+			],
+			"furycutter": [
+				"2M"
+			],
+			"furyswipes": [
+				"2L1"
+			],
+			"headbutt": [
+				"2M"
+			],
+			"hiddenpower": [
+				"2M"
+			],
+			"hyperbeam": [
+				"2M"
+			],
+			"icepunch": [
+				"2M"
+			],
+			"leer": [
+				"2L1"
+			],
+			"lick": [
+				"2L1"
+			],
+			"moonlight": [
+				"2L1"
+			],
+			"mudslap": [
+				"2M"
+			],
+			"protect": [
+				"2M"
+			],
+			"rest": [
+				"2M",
+				"2L1"
+			],
+			"return": [
+				"2M"
+			],
+			"roar": [
+				"2M"
+			],
+			"rocksmash": [
+				"2M"
+			],
+			"rollout": [
+				"2M"
+			],
+			"scratch": [
+				"2L1"
+			],
+			"slash": [
+				"2L1"
+			],
+			"sleeptalk": [
+				"2M"
+			],
+			"snore": [
+				"2M",
+				"2L1"
+			],
+			"strength": [
+				"2M"
+			],
+			"sunnyday": [
+				"2M"
+			],
+			"swagger": [
+				"2M"
+			],
+			"swift": [
+				"2M"
+			],
+			"thief": [
+				"2M"
+			],
+			"thrash": [
+				"2L1"
+			],
+			"thunderpunch": [
+				"2M"
+			],
+			"toxic": [
+				"2M"
+			],
+			"zapcannon": [
+				"2M"
+			]
+		}
+	},
+	foxfire: {
+		learnset: {
+			attract: ["2M"],
+			bite: ["2L21"],
+			confuseray: ["2E"],
+			curse: ["2M"],
+			defensecurl: ["2M"],
+			dig: ["2M"],
+			disable: ["2E"],
+			doubleedge: ["1M"],
+			doubleteam: ["2M"],
+			ember: ["2L1", "1L1"],
+			endure: ["2M"],
+			fireblast: ["2M"],
+			firespin: ["2L34"],
+			flamethrower: ["2T", "2L40"],
+			flamewheel: ["2L12"],
+			frustration: ["2M"],
+			headbutt: ["2M"],
+			hiddenpower: ["2M"],
+			hyperbeam: ["2M"],
+			hypnosis: ["2E"],
+			morningsun: ["2L28"],
+			mudslap: ["2M"],
+			irontail: ["2M"],
+			protect: ["2M"],
+			quickattack: ["2E"],
+			rest: ["2M"],
+			return: ["2M"],
+			roar: ["2M", "2L17"],
+			sleeptalk: ["2M"],
+			snore: ["2M"],
+			sunnyday: ["2M"],
+			swagger: ["2M"],
+			swift: ["2M"],
+			thief: ["2M"],
+			toxic: ["2M"],
+		},
+	},
+	wooperpaldea: {
+		learnset: {
+			amnesia: ["2L21"],
+			ancientpower: ["2E"],
+			attract: ["2M"],
+			bellydrum: ["2S0"],
+			bodyslam: ["2E"],
+			curse: ["2M"],
+			defensecurl: ["2M"],
+			dig: ["2M"],
+			doubleteam: ["2M"],
+			dynamicpunch: ["2M"],
+			earthquake: ["2M", "2L31"],
+			endure: ["2M"],
+			flash: ["2M"],
+			frustration: ["2M"],
+			haze: ["2E"],
+			headbutt: ["2M"],
+			hiddenpower: ["2M"],
+			icebeam: ["2T"],
+			icepunch: ["2M"],
+			irontail: ["2M"],
+			mist: ["2E"],
+			mudslap: ["2M", "2L1"],
+			protect: ["2M"],
+			raindance: ["2M", "2L41"],
+			rest: ["2M"],
+			return: ["2M"],
+			rocksmash: ["2M"],
+			rollout: ["2M"],
+			safeguard: ["2E"],
+			sandstorm: ["2M"],
+			scaryface: ["2S1"],
+			slam: ["2L11"],
+			sleeptalk: ["2M"],
+			sludgebomb: ["2M"],
+			snore: ["2M"],
+			spikes: ["2L51"],
+			surf: ["2M"],
+			swagger: ["2M"],
+			tailwhip: ["2L1", "2S1", "2S0"],
+			toxic: ["2M, 2L41"],
+			watergun: ["2S1", "2S0"],
+			whirlpool: ["2M"],
+		},
+	},
+	clodsire: {
+		learnset: {
+			amnesia: ["2L23"],
+			attract: ["2M"],
+			curse: ["2M"],
+			defensecurl: ["2M"],
+			dig: ["2M"],
+			doubleteam: ["2M"],
+			dynamicpunch: ["2M"],
+			earthquake: ["2M", "2L35"],
+			endure: ["2M"],
+			flash: ["2M"],
+			frustration: ["2M"],
+			haze: ["2L59"],
+			headbutt: ["2M"],
+			hiddenpower: ["2M"],
+			hyperbeam: ["2M"],
+			icebeam: ["2T"],
+			icepunch: ["2M"],
+			irontail: ["2M"],
+			megahorn: ["2L41"],
+			mist: ["2L59"],
+			mudslap: ["2M", "2L1"],
+			protect: ["2M"],
+			raindance: ["2M", "2L47"],
+			rest: ["2M"],
+			return: ["2M"],
+			rocksmash: ["2M"],
+			rollout: ["2M"],
+			sandstorm: ["2M"],
+			slam: ["2L11"],
+			sleeptalk: ["2M"],
+			sludgebomb: ["2M"],
+			snore: ["2M"],
+			spikes: ["2L59"],
+			strength: ["2M"],
+			surf: ["2M"],
+			swagger: ["2M"],
+			tailwhip: ["2L1"],
+			toxic: ["2M", "2L47"],
+			whirlpool: ["2M"],
+		},
+	},
+	qatu: {
+		learnset: {
+			attract: ["2M"],
+			confuseray: ["2L50"],
+			curse: ["2M"],
+			detect: ["2M"],
+			doubleteam: ["2M"],
+			dreameater: ["2M"],
+			endure: ["2M"],
+			flash: ["2M"],
+			fly: ["2M"],
+			frustration: ["2M"],
+			futuresight: ["2L35"],
+			gigadrain: ["2M"],
+			hiddenpower: ["2M"],
+			leer: ["2L1"],
+			nightmare: ["2M"],
+			nightshade: ["2L10", "2L1"],
+			peck: ["2L1"],
+			protect: ["2M"],
+			psychic: ["2M", "2L65"],
+			psychup: ["2M"],
+			rest: ["2M"],
+			return: ["2M"],
+			sleeptalk: ["2M"],
+			snore: ["2M"],
+			solarbeam: ["2M"],
+			sunnyday: ["2M"],
+			swagger: ["2M"],
+			swift: ["2M"],
+			synchronize: ["2L35"],
+			teleport: ["2L20"],
+			thief: ["2M"],
+			toxic: ["2M"],
+		},
+	},
+	kleavor: {
+		learnset: {
+			quickattack: ["2L1", "1L1"],
+			leer: ["2L1", "1L17"],
+			focusenergy: ["2L6", "1L20"],
+			rockthrow: ["1L27"],
+			slash: ["2L36", "1L29"],
+			swordsdance: ["2L42", "1L35", "1M"],
+			agility: ["1L42"],
+			wingattack: ["1L50"],
+			takedown: ["1M"],
+			doubleedge: ["1M"],
+			hyperbeam: ["2M", "1M"],
+			swift: ["2M", "1M"],
+			skullbash: ["1M"],
+			rockslide: ["1M"],
+			cut: ["2M", "1M"],
+			strength: ["2M", "1M"],
+			toxic: ["2M", "1M"],
+			rage: ["1M"],
+			mimic: ["1M"],
+			doubleteam: ["2L48", "2M", "1L24", "1M"],
+			bide: ["1M"],
+			rest: ["2M", "1M"],
+			substitute: ["1M"],
+
+			pursuit: ["2L12"],
+			falseswipe: ["2L18"],
+			rockslash: ["2L30"],
+			headbutt: ["2M"],
+			curse: ["2M"],
+			hiddenpower: ["2M"],
+			sunnyday:  ["2M"],
+			snore: ["2M"],
+			protect: ["2M"],
+			endure: ["2M"],
+			frustration: ["2M"],
+			return: ["2M"],
+			swagger: ["2M"],
+			sleeptalk: ["2M"],
+			sandstorm: ["2M"],
+			detect: ["2M"],
+			attract: ["2M"],
+			thief: ["2M"],
+			steelwing: ["2M"],
+			furycutter: ["2M"],
 		}
 	},
 	// CROSS CUTTER:
@@ -26459,7 +27060,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		],
 	},
 	// MEGAPHONE
-
 	hoothoot: {
 		learnset: {
 			attract: ["2M"],
@@ -26550,7 +27150,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		],
 	},
 	// SYNCHRONIZE
-
 	espeon: {
 		learnset: {
 			attract: ["2M"],

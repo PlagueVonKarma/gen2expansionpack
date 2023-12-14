@@ -17,7 +17,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	raichualola: {
 		inherit: true,
-		gen: 1
+		gen: 1,
+		"baseStats": {
+			"atk": 85,
+			"def": 50,
+			"hp": 60,
+			"spa": 95,
+			"spd": 85,
+			"spe": 100
+		},
 	},
 	eevee: {
 		inherit: true,
@@ -96,7 +104,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	golemalola: {
 		inherit: true,
-		gen: 1
+		gen: 1,
+		"baseStats": {
+			"atk": 110,
+			"def": 130,
+			"hp": 80,
+			"spa": 55,
+			"spd": 65,
+			"spe": 45
+		},
 	},
 	sandshrew: {
 		inherit: true,
@@ -181,7 +197,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	dugtrioalola: {
 		inherit: true,
-		gen: 1
+		gen: 1,
+		"baseStats": {
+			"atk": 80,
+			"def": 60,
+			"hp": 35,
+			"spa": 50,
+			"spd": 70,
+			"spe": 110
+		},
 	},
 	wiglett: {
 		inherit: true,
@@ -189,7 +213,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	wugtrio: {
 		inherit: true,
-		gen: 1
+		gen: 1,
+		"baseStats": {
+			"atk": 80,
+			"def": 50,
+			"hp": 35,
+			"spa": 50,
+			"spd": 70,
+			"spe": 120
+		},
 	},
 	voltorb: {
 		inherit: true,
@@ -205,7 +237,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	electrodehisui: {
 		inherit: true,
-		gen: 1
+		gen: 1,
+		"baseStats": {
+			"atk": 50,
+			"def": 70,
+			"hp": 60,
+			"spa": 80,
+			"spd": 80,
+			"spe": 140
+		},
 	},
 	toedscool: {
 		inherit: true,
@@ -303,7 +343,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	exeggutoralola: {
 		inherit: true,
-		gen: 1
+		gen: 1,
+		"baseStats": {
+			"atk": 105,
+			"def": 85,
+			"hp": 95,
+			"spa": 125,
+			"spd": 65,
+			"spe": 45
+		},
 	},
 	rhyperior: {
 		inherit: true,
@@ -477,7 +525,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	corsolagalar: {
 		inherit: true,
-		gen: 2
+		gen: 2,
+		"baseStats": {
+			"atk": 55,
+			"def": 90,
+			"hp": 50,
+			"spa": 65,
+			"spd": 90,
+			"spe": 30
+		},
 	},
 	cursola: {
 		inherit: true,
@@ -502,7 +558,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	qwilfishhisui: {
 		inherit: true,
-		gen: 2
+		gen: 2,
+		"baseStats": {
+			"atk": 95,
+			"def": 75,
+			"hp": 65,
+			"spa": 55,
+			"spd": 55,
+			"spe": 85
+		},
 	},
 	overqwil: {
 		inherit: true,
@@ -731,6 +795,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
+		prevo: "Weepinbell",
+		evoType: "useItem", 
+		evoItem: "Sun Stone",
 		"gen": 1,
 		"name": "Bellignan",
 		"types": [
@@ -752,7 +819,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spe": 45
 		},
 		"evos": [
-			""
+			"Calflac"
 		],
 		"gen": 2,
 		"name": "Bipulla",
@@ -776,7 +843,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			"Zubat"
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Bittybat",
 		"types": [
 			"Poison",
@@ -799,7 +866,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			"Blastoise"
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Blastyke",
 		"types": [
 			"Water"
@@ -818,10 +885,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spd": 65,
 			"spe": 50
 		},
-		"evos": [
-			""
-		],
-		"gen": 2,
+		evos: ["Pendraken"],
+		"gen": 1,
 		"name": "Blottle",
 		"types": [
 			"Water",
@@ -866,7 +931,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			"Tangela"
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Burgela",
 		"types": [
 			"Grass"
@@ -888,7 +953,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Buu",
 		"types": [
 			"Ice"
@@ -910,7 +975,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Cactormus",
 		"types": [
 			"Grass",
@@ -931,7 +996,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spe": 65
 		},
 		"evos": [
-			""
+			"Girafarig"
 		],
 		"gen": 2,
 		"name": "Calflac",
@@ -956,6 +1021,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
+		prevo: "Pupal",
+		evoLevel: 10,
 		"gen": 2,
 		"name": "Carapthor",
 		"types": [
@@ -976,10 +1043,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spd": 40,
 			"spe": 40
 		},
-		"evos": [
-			""
-		],
-		"gen": 2,
+		evos: ["Jabetta"],
+		"gen": 1,
 		"name": "Cheep",
 		"types": [
 			"Water"
@@ -1005,7 +1070,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			"Meowth"
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Coinpur",
 		"types": [
 			"Normal"
@@ -1048,7 +1113,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spe": 48
 		},
 		"evos": [
-			""
+			"Flambear"
 		],
 		"gen": 2,
 		"name": "Cubburn",
@@ -1069,10 +1134,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spd": 40,
 			"spe": 15
 		},
-		"evos": [
-			""
-		],
-		"gen": 2,
+		evos: ["Gawarhed"],
+		"gen": 1,
 		"name": "Decilla",
 		"types": [
 			"Rock"
@@ -1094,7 +1157,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
-		"gen": 2,
+		prevo: "Shellder",
+		evoType: "useItem",
+		evoItem: "Water Stone",
+		"gen": 1,
 		"name": "Disturban",
 		"types": [
 			"Water"
@@ -1120,7 +1186,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			"Doduo"
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Dodaerie",
 		"types": [
 			"Normal",
@@ -1207,7 +1273,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spe": 63
 		},
 		"evos": [
-			""
+			"Bruinous"
 		],
 		"gen": 2,
 		"name": "Flambear",
@@ -1229,7 +1295,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spe": 15
 		},
 		"evos": [
-			""
+			"Barreau"
 		],
 		"gen": 2,
 		"name": "Folage",
@@ -1250,10 +1316,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spd": 50,
 			"spe": 50
 		},
-		"evos": [
-			""
-		],
-		"gen": 2,
+		prevo: "Kotora",
+		evoLevel: 16,
+		evos: ["Gorotora"],
+		"gen": 1,
 		"name": "Gaotora",
 		"types": [
 			"Electric"
@@ -1275,7 +1341,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Gavillain",
 		"types": [
 			"Dragon",
@@ -1298,7 +1364,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
-		"gen": 2,
+		prevo: "Decilla",
+		evoLevel: 50,
+		"gen": 1,
 		"name": "Gawarhed",
 		"types": [
 			"Rock"
@@ -1317,9 +1385,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spd": 25,
 			"spe": 45
 		},
-		"evos": [
-			""
-		],
+		evos: ["Pupal"],
 		"gen": 2,
 		"name": "Gentlarva",
 		"types": [
@@ -1342,6 +1408,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
+		prevo: "Raichu",
+		evoType: "trade",
 		"gen": 1,
 		"name": "Gorochu",
 		"types": [
@@ -1364,7 +1432,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
-		"gen": 2,
+		prevo: "Gaotora",
+		evoLevel: 36,
+		"gen": 1,
 		"name": "Gorotora",
 		"types": [
 			"Electric"
@@ -1383,9 +1453,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spd": 100,
 			"spe": 65
 		},
-		"evos": [
-			""
-		],
+		prevo: "Marowak",
+		evoType: "trade",
+		evoCondition: "with a Kangaskhan", //I believe this wouldn't cause a crash as iirc they aren't actually coded in, just displayed with /dt. If it causes problems, just remove it, as it's not like this specific evo condition actually exists in RBY anyway.
 		"gen": 1,
 		"name": "Guardia",
 		"types": [
@@ -1409,6 +1479,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			""
 		],
 		"gen": 1,
+		prevo: "Ministare",
+		evoLevel: 50,
 		"name": "Iguanarch",
 		"types": [
 			"Dragon"
@@ -1430,7 +1502,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
-		"gen": 2,
+		prevo: "Cheep",
+		evoLevel: 30,
+		"gen": 1,
 		"name": "Jabetta",
 		"types": [
 			"Water",
@@ -1453,6 +1527,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
+		prevo: "Tangela",
 		"gen": 2,
 		"name": "Jungela",
 		"types": [
@@ -1474,7 +1549,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spe": 70
 		},
 		"evos": [
-			""
+			"Ponyta"
 		],
 		"gen": 1,
 		"name": "Kolta",
@@ -1495,10 +1570,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spd": 35,
 			"spe": 40
 		},
-		"evos": [
-			""
-		],
-		"gen": 2,
+		evos: ["Gaotora"],
+		"gen": 1,
 		"name": "Kotora",
 		"types": [
 			"Electric"
@@ -1547,6 +1620,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
+		prevo: "Farfetch\u2019d",
+		evoLevel: 24,
 		"gen": 1,
 		"name": "Luxwan",
 		"types": [
@@ -1571,10 +1646,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spd": 60,
 			"spe": 55
 		},
+		prevo: "Magnemite",
 		"evos": [
-			""
+			"Magneton"
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Magnetite",
 		"types": [
 			"Electric",
@@ -1616,8 +1692,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spd": 60,
 			"spe": 98
 		},
+		prevo: "Squeamata",
+		evoLevel: 30,
 		"evos": [
-			""
+			"Iguanarch"
 		],
 		"gen": 1,
 		"name": "Ministare",
@@ -1663,7 +1741,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
-		"gen": 2,
+		prevo: "Nidorino", // It seems we can't have convergent evolutions, so Nidorino will be used here. I believe it'll be functionally identical in the validator as long as I make it learn the Nidorina-exclusive moves via an event entry or something. 
+		evoType: "useItem", //NOTE TO SELF: Make the moves all learned at L1 and L50. The lowest reasonable level people will use this at is 50, and this will resolve any incompatabilities in the validator. The moves suck but let's make sure nobody becomes uncanny.
+		evoItem: "Moon Stone",
+		"gen": 1,
 		"name": "Nidoreign",
 		"types": [
 			"Poison",
@@ -1708,7 +1789,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			"Goldeen"
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Orfry",
 		"types": [
 			"Water"
@@ -1728,7 +1809,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spe": 43
 		},
 		"evos": [
-			""
+			"Pressio"
 		],
 		"gen": 2,
 		"name": "Palssio",
@@ -1752,7 +1833,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			"Paras"
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Paraspor",
 		"types": [
 			"Bug",
@@ -1775,8 +1856,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Pendraken",
+		prevo: "Blottle",
+		evoLevel: 30,
 		"types": [
 			"Water",
 			"Fairy"
@@ -1823,7 +1906,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spe": 53
 		},
 		"evos": [
-			""
+			"Donmarin"
 		],
 		"gen": 2,
 		"name": "Pressio",
@@ -1848,9 +1931,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spd": 30,
 			"spe": 40
 		},
-		"evos": [
-			""
-		],
+		evos: ["Carapthor"],
+		prevo: "Gentlarva",
+		evoLevel: 7,
 		"gen": 1,
 		"name": "Pupal",
 		"types": [
@@ -1871,9 +1954,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spe": 40
 		},
 		"evos": [
-			""
+			"Growlithe"
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Pupperon",
 		"types": [
 			"Fire"
@@ -1938,9 +2021,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spe": 40
 		},
 		"evos": [
-			""
+			"Croakozuna"
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Ribbito",
 		"types": [
 			"Water"
@@ -1962,7 +2045,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Sharpoon",
 		"types": [
 			"Water",
@@ -2014,7 +2097,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spe": 10
 		},
 		"evos": [
-			""
+			"Grimer"
 		],
 		"gen": 2,
 		"name": "Smujj",
@@ -2036,9 +2119,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spe": 88
 		},
 		"evos": [
-			""
+			"Ministare"
 		],
-		"gen": 2,
+		"gen": 1,
 		"name": "Squeamata",
 		"types": [
 			"Dragon"
@@ -2088,10 +2171,13 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 			"spd": 105,
 			"spe": 78
 		},
-		"evos": [
-			""
-		],
-		"gen": 2,
+		/* It seemed less complicated to separate Blastoise and Totartle when coding so I went
+		** back on the branch evolution aspect. It's cool and gives a PokeGod aspect, 
+		** but it's more accurate and moves are retained properly anyway.
+		*/
+		prevo: "Wartortle", 
+		evoLevel: 43,
+		"gen": 1,
 		"name": "Totartle",
 		"types": [
 			"Water",
@@ -2137,6 +2223,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"evos": [
 			""
 		],
+		prevo: "Pinsir",
+		evoLevel: 42,
 		"gen": 1,
 		"name": "Tricules",
 		"types": [
@@ -2195,5 +2283,990 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		"types": [
 			"Water"
 		]
-	}
+	},
+	// MANUAL INPUTS START HERE
+	foxfire: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 65,
+			"def": 60,
+			"hp": 70,
+			"spa": 85,
+			"spd": 80,
+			"spe": 85
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Foxfire",
+		"types": [
+			"Fire"
+		]
+	},
+	reroad: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 85,
+			"def": 75,
+			"hp": 90,
+			"spa": 85,
+			"spd": 70,
+			"spe": 70
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Reroad",
+		"types": [
+			"Water",
+			"Normal"
+		]
+	},
+	sunbud: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 45,
+			"def": 45,
+			"hp": 55,
+			"spa": 65,
+			"spd": 65,
+			"spe": 30
+		},
+		"evos": [
+			"Sunflora"
+		],
+		"gen": 2,
+		"name": "Sunbud",
+		"types": [
+			"Water",
+			"Normal"
+		]
+	},
+	hippunk: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 75,
+			"def": 75,
+			"hp": 90,
+			"spa": 80,
+			"spd": 80,
+			"spe": 30
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Hippunk",
+		"types": [
+			"Psychic",
+			"Dark"
+		]
+	},
+	pockle: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 70,
+			"def": 130,
+			"hp": 80,
+			"spa": 70,
+			"spd": 130,
+			"spe": 25
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Pockle",
+		"types": [
+			"Ground",
+			"Rock"
+		]
+	},
+	caretorker: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 65,
+			"def": 65,
+			"hp": 90,
+			"spa": 75,
+			"spd": 118,
+			"spe": 72
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Caretorker",
+		"types": [
+			"Flying",
+			"Fairy"
+		]
+	},
+	stricheel: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 60,
+			"def": 65,
+			"hp": 50,
+			"spa": 60,
+			"spd": 35,
+			"spe": 20
+		},
+		"evos": [
+			"Lurreel"
+		],
+		"gen": 2,
+		"name": "Stricheel",
+		"types": [
+			"Water"
+		]
+	},
+	lurreel: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 85,
+			"def": 105,
+			"hp": 70,
+			"spa": 105,
+			"spd": 65,
+			"spe": 55
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Lurreel",
+		"types": [
+			"Water",
+			"Dark"
+		]
+	},
+	kazeppelin: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 95,
+			"def": 75,
+			"hp": 75,
+			"spa": 115,
+			"spd": 85,
+			"spe": 65
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Kazeppelin",
+		"types": [
+			"Water",
+			"Electric"
+		]
+	},
+	qwilfather: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 115,
+			"def": 85,
+			"hp": 75,
+			"spa": 75,
+			"spd": 75,
+			"spe": 85
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Qwilfather",
+		"types": [
+			"Water",
+			"Poison"
+		]
+	},
+	sailwing: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 65,
+			"def": 50,
+			"hp": 70,
+			"spa": 95,
+			"spd": 60,
+			"spe": 95
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Sailwing",
+		"types": [
+			"Water",
+			"Flying"
+		]
+	},
+	grenmar: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 80,
+			"def": 80,
+			"hp": 70,
+			"spa": 105,
+			"spd": 80,
+			"spe": 55
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Grenmar",
+		"types": [
+			"Fire",
+			"water"
+		]
+	},
+	bunice: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 25,
+			"def": 50,
+			"hp": 40,
+			"spa": 60,
+			"spd": 55,
+			"spe": 40
+		},
+		"evos": [
+			"Bundra"
+		],
+		"gen": 2,
+		"name": "Bunice",
+		"types": [
+			"Ice"
+		]
+	},
+	bundra: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 40,
+			"def": 70,
+			"hp": 60,
+			"spa": 80,
+			"spd": 70,
+			"spe": 60
+		},
+		"evos": [
+			"Bunberg",
+			"Bundrake"
+		],
+		"gen": 2,
+		"name": "Bundra",
+		"types": [
+			"Ice",
+			"Grass"
+		]
+	},
+	bunberg: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 50,
+			"def": 90,
+			"hp": 80,
+			"spa": 100,
+			"spd": 100,
+			"spe": 80
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Bunberg",
+		"types": [
+			"Ice",
+			"Grass"
+		]
+	},
+	bundrake: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 50,
+			"def": 100,
+			"hp": 80,
+			"spa": 110,
+			"spd": 90,
+			"spe": 70
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Bundrake",
+		"types": [
+			"Water",
+			"Grass"
+		]
+	},
+	warfurs: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 70,
+			"def": 60,
+			"hp": 45,
+			"spa": 50,
+			"spd": 50,
+			"spe": 55
+		},
+		"evos": [
+			"Wearlycan"
+		],
+		"gen": 2,
+		"name": "Warfurs",
+		"types": [
+			"Normal",
+			"Ice"
+		]
+	},	
+	wearlycan: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 110,
+			"def": 80,
+			"hp": 75,
+			"spa": 80,
+			"spd": 70,
+			"spe": 85
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Wearlycan",
+		"types": [
+			"Normal",
+			"Ice"
+		]
+	},
+	waruchu: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 75,
+			"def": 50,
+			"hp": 55,
+			"spa": 90,
+			"spd": 60,
+			"spe": 110
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Waruchu",
+		"types": [
+			"Electric",
+			"Dark"
+		]
+	},
+	sonegg: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 35,
+			"def": 50,
+			"hp": 40,
+			"spa": 70,
+			"spd": 65,
+			"spe": 65
+		},
+		"evos": [
+			"Cacawphony"
+		],
+		"gen": 2,
+		"name": "Sonegg",
+		"types": [
+			"Normal",
+			"Flying"
+		]
+	},
+	cacawphony: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 85,
+			"def": 70,
+			"hp": 60,
+			"spa": 90,
+			"spd": 85,
+			"spe": 85
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Cacawphony",
+		"types": [
+			"Normal",
+			"Flying"
+		]
+	},
+	trebir: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 70,
+			"def": 60,
+			"hp": 60,
+			"spa": 115,
+			"spd": 85,
+			"spe": 85
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Trebir",
+		"types": [
+			"Normal",
+			"Flying"
+		]
+	},
+	sakuraze: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 90,
+			"def": 70,
+			"hp": 70,
+			"spa": 87,
+			"spd": 117,
+			"spe": 85
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Sakuraze",
+		"types": [
+			"Grass",
+			"Fire"
+		]
+	},
+	amanobi: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 90,
+			"def": 65,
+			"hp": 50,
+			"spa": 75,
+			"spd": 50,
+			"spe": 105
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Amanobi",
+		"types": [
+			"Fighting",
+			"Steel"
+		]
+	},
+	trustan: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 75,
+			"def": 40,
+			"hp": 50,
+			"spa": 95,
+			"spd": 50,
+			"spe": 115
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Trustan",
+		"types": [
+			"Normal",
+			"Fire"
+		]
+	},
+	kuwaguard: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 95,
+			"def": 90,
+			"hp": 60,
+			"spa": 60,
+			"spd": 65,
+			"spe": 75
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Kuwaguard",
+		"types": [
+			"Bug",
+			"Flying"
+		]
+	},
+	tonquito: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 50,
+			"def": 45,
+			"hp": 60,
+			"spa": 95,
+			"spd": 90,
+			"spe": 105
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Tonquito",
+		"types": [
+			"Bug",
+			"Flying"
+		]
+	},
+	molambino: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 35,
+			"def": 65,
+			"hp": 70,
+			"spa": 65,
+			"spd": 70,
+			"spe": 35
+		},
+		"evos": [
+			"Luanbo"
+		],
+		"gen": 2,
+		"name": "Molambino",
+		"types": [
+			"Water",
+			"Fairy"
+		]
+	},
+	lunabo: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 45,
+			"def": 75,
+			"hp": 95,
+			"spa": 75,
+			"spd": 95,
+			"spe": 45
+		},
+		"evos": [
+			"Granbo"
+		],
+		"gen": 2,
+		"name": "Luanbo",
+		"types": [
+			"Water",
+			"Fairy"
+		]
+	},
+	granbo: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 65,
+			"def": 85,
+			"hp": 120,
+			"spa": 85,
+			"spd": 120,
+			"spe": 45
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Granbo",
+		"types": [
+			"Water",
+			"Fairy"
+		]
+	},
+	angore: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 110,
+			"def": 60,
+			"hp": 90,
+			"spa": 55,
+			"spd": 60,
+			"spe": 110
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Angore",
+		"types": [
+			"Water",
+			"Steel"
+		]
+	},
+	eucla: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 105,
+			"def": 65,
+			"hp": 75,
+			"spa": 35,
+			"spd": 55,
+			"spe": 45
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Eucla",
+		"types": [
+			"Normal",
+			"Grass"
+		]
+	},
+	kiwooked: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 95,
+			"def": 40,
+			"hp": 50,
+			"spa": 45,
+			"spd": 60,
+			"spe": 105
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Kiwooked",
+		"types": [
+			"Ground",
+			"Flying"
+		]
+	},
+	cyclorp: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 95,
+			"def": 80,
+			"hp": 75,
+			"spa": 80,
+			"spd": 70,
+			"spe": 70
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Cyclorp",
+		"types": [
+			"Bug",
+			"Dark"
+		]
+	},
+	kitsen: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 90,
+			"def": 50,
+			"hp": 50,
+			"spa": 80,
+			"spd": 60,
+			"spe": 100
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Kitsen",
+		"types": [
+			"Ghost",
+			"Flying"
+		]
+	},
+	wispirit: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 30,
+			"def": 45,
+			"hp": 75,
+			"spa": 105,
+			"spd": 60,
+			"spe": 99
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Wispirit",
+		"types": [
+			"Ghost",
+			"Fire"
+		]
+	},
+	coatl: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 65,
+			"def": 60,
+			"hp": 60,
+			"spa": 90,
+			"spd": 70,
+			"spe": 90
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Coatl",
+		"types": [
+			"Dragon"
+		]
+	},
+	mimear: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 70,
+			"def": 75,
+			"hp": 65,
+			"spa": 95,
+			"spd": 80,
+			"spe": 100
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Mimear",
+		"types": [
+			"Fairy"
+		]
+	},
+	inoshika: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 100,
+			"def": 80,
+			"hp": 95,
+			"spa": 70,
+			"spd": 60,
+			"spe": 55
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Inoshika",
+		"types": [
+			"Normal",
+			"Rock"
+		]
+	},
+	ruddernaut: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 80,
+			"def": 85,
+			"hp": 130,
+			"spa": 95,
+			"spd": 60,
+			"spe": 85
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Ruddernaut",
+		"types": [
+			"Water",
+			"Psychic"
+		]
+	},
+	xylodon: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 95,
+			"def": 90,
+			"hp": 65,
+			"spa": 55,
+			"spd": 50,
+			"spe": 20
+		},
+		"evos": [
+			"Xylofin"
+		],
+		"gen": 2,
+		"name": "Xylodon",
+		"types": [
+			"Rock"
+		]
+	},
+	xylofin: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 115,
+			"def": 110,
+			"hp": 85,
+			"spa": 85,
+			"spd": 70,
+			"spe": 50
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Xylodon",
+		"types": [
+			"Rock",
+			"Steel"
+		]
+	},
+	dokuroar: {
+		num: -1,
+		eggGroups: ["None"],
+		abilities: [""],
+		weightkg: 1,
+		"baseStats": {
+			"atk": 123,
+			"def": 110,
+			"hp": 87,
+			"spa": 65,
+			"spd": 65,
+			"spe": 65
+		},
+		"evos": [
+			""
+		],
+		"gen": 2,
+		"name": "Dokuroar",
+		"types": [
+			"Ghost",
+			"Rock"
+		]
+	},
 };
