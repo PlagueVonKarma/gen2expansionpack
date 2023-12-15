@@ -139,6 +139,23 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		target: "normal",
 		type: "Rock",
 	},
+	uppercut: {
+		num: -14,
+		accuracy: 80,
+		basePower: 55,
+		category: "Physical",
+		name: "Uppercut",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		shortDesc: "30% chance to make the target flinch.",
+		secondary: {
+			chance: 30,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Fighting",
+	},
 	// Unfinished
 	// strongarm: {
 	// 	num: -10,
@@ -150,12 +167,33 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	// watersport: {
 	// 	num: -12,
 	// }
+	//FAIRY
 	dazzlinggleam: {
 		num: -10,
+		inherit: true
+	},
+	disarmingvoice: {
+		num: -13,
 		inherit: true
 	},
 	drainingkiss: {
 		num: -11,
 		inherit: true
-	}
+	},
+	fairywind: {
+		num: -12,
+		inherit: true		
+	},
+	playrough: {
+		num: -15,
+		inherit: true
+	},
+	charm: {
+		inherit: true,
+		type: "Fairy"
+	},
+	sweetkiss: {
+		inherit: true,
+		type: "Fairy"
+	},
 };
