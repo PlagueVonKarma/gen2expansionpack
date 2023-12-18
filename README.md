@@ -24,8 +24,16 @@ JEP spriters hold the policy of requiring sprites to be used with direct credit 
 
 Helix Chamber sprites: Balumba, Blastyke, Blottle, Buu, Cactormus, Cheep, Coinpur, Croakozuna, Decilla, Fossils, Gaotora, Gavillain (edited by Albatross), Gawarhed, Gorochu (edited by Martha’s Against Humanity), Gorotora, Guardia, Jabetta (edited by Martha’s Against Humanity), Kolta, Kotora, Luxwan, Nidoreign, Omegadge, Orfry, Pendraken, Ramoose, Ribbito, Sharpoon, Totartle, Trampel, Vulpiii, Weirduck
 
-Albatross sprites: Articuno-G, Blissey, Dugtrio-A, Electivire, Electrode-H, Exeggutor-A, Gentlarva, Glaceon, Golem-A, Hitmontop, Iguanarch, Kleavor, Leafeon, Lickilicky, Marowak-A, Melmetal, Meltan, Moltres-G, Mr. Rime, Muk-A, Ninetales-A, Perrserker, Persian-A, Politoed, Porygon-Z, Pupal, Raichu-A, Rapidash-G, Raticate-A, Rhyperior, Sandslash-A, Sandy Shocks, Scizor, Sirfetch’d, Slowbro-G, Slowking-G, Tangrowth, Toedscool, Toedscruel, Weezing-G, Wiglett, Zapdos-G
+Albatross sprites: Articuno-G, Dugtrio-A, Electivire, Electrode-H, Exeggutor-A, Gentlarva, Glaceon, Golem-A, Iguanarch, Kleavor, Leafeon, Lickilicky, Marowak-A, Melmetal, Meltan, Moltres-G, Mr. Rime, Muk-A, Ninetales-A, Perrserker, Persian-A, Porygon-Z, Pupal, Raichu-A, Rapidash-G, Raticate-A, Rhyperior, Sandslash-A, Sandy Shocks, Sirfetch’d, Slowbro-G, Slowking-G, Tangrowth, Toedscool, Toedscruel, Weezing-G, Wiglett, Zapdos-G
 
 Martha’s Against Humanity sprites: Bellignan (with help from PvK), Mimmeo, Sylveon (with help from Albatross)
 
-Albatross’ sprites refined by either Martha’s Against Humanity or PvK: Annihilape, Arcanine-H, Bellossom, Carapthor, Kingdra, Magmortar, Magnezone, Ministare, Porygon2, Scream Tail, Squeamata, Tauros-P, Wugtrio
+Albatross’ sprites refined by either Martha’s Against Humanity or PvK: Annihilape, Arcanine-H, Bellossom, Carapthor, Magmortar, Magnezone, Ministare, Scream Tail, Squeamata, Tauros-P, Wugtrio
+
+Zeta_Null sprites: Belledam, Porygon-Z, Waruchu, Coinpur, Exeggutor-A (Front update from KEP), Totartle, Gouging Fire, Stromen, Typhlosion-H, Lickilord, Omegadge, Phandarin, Qatu, Cubburn, Calflac, 
+
+Nuuk sprites: Glaceon (Edited by Zeta_Null), Sylveon (Edited by Zeta_Null), Farigiraf, Wooper-P, Clodsire (back), Weavile, Azurill, Leafeon, 
+
+zuperZACH sprites: Clodsire (front)
+
+EyeDonutz sprites: Walking Wake
